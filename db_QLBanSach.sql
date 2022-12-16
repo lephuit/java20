@@ -59,7 +59,7 @@ CREATE TABLE   donhang  (
    iddonhang  INT NOT NULL,
    idkhachhang  INT NOT NULL,
    idsach  INT NOT NULL,
-   dathanhtoan  TINYINT(1) NOT NULL,
+   dathanhtoan  INT NOT NULL,
    ngaygiao  DATE NOT NULL,
    ngaydat  DATE NOT NULL,
    tinhtrangGH  INT NOT NULL,
